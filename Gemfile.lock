@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    biodiversity (3.1.5)
+      parallel (~> 1.2)
+      treetop (~> 1.5)
+      unicode_utils (~> 1.4)
+    karousel (0.9.14)
+    mime-types (2.4.3)
+    netrc (0.10.3)
+    parallel (1.4.1)
+    polyglot (0.3.5)
+    rest-client (1.7.3)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    treetop (1.5.3)
+      polyglot (~> 0.3)
+    unicode_utils (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  biodiversity
+  karousel
+  rest-client

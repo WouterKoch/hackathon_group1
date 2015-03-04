@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+script_name = $0
+input = ARGV[0]
+output = ARGV[1]
+
+unless input && output
+  puts "Usage: #{script_name} input_file output_file"
+  exit
+end
+
+require_relative "lib/crossmapper"
+
+cm = Crossmapper.new(input, output)
+
+cm.run
